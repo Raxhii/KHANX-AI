@@ -5,13 +5,13 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "TnY1QIqC#P-4d4HnsdvzX8gzYwMOajpLnl2YYFQ6kcmzugqls7Dk",
+SESSION_ID: process.env.SESSION_ID || "H6AnQRYR#LurC-JxvFiN9jbgH6vSr6JzK0hBL7e-40cmJ1ASU1u4",
 // add your Session Id 
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot
 ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/hzagwo.jpg",
 // add img for alive msg
-ALIVE_MSG: process.env.ALIVE_MSG || "> Zinda Hun Yar *KHAN-AI*⚡",
+ALIVE_MSG: process.env.ALIVE_MSG || "> Zinda Hun Yar The Rashid Aman Md *KHAN-AI*⚡",
 // add alive msg here 
 READ_MESSAGE: process.env.READ_MESSAGE || "false",
 // Turn true or false for automatic read msgs
